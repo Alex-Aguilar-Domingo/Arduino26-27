@@ -1,0 +1,14 @@
+//BLINK CON DELAY
+
+// CONFIGURACIÓN
+void setup() {
+pinMode (13,OUTPUT); //MARCAMOS EL PIN 13 (LED) COMO SALIDA
+}
+
+// PROGRAMA PRINCIPAL
+void loop() {
+digitalWrite (13,HIGH); //ENCENDEMOS EL PIN 13 (LED)
+delay (1000); //ESPERAMOS 1000 MILISEGUNDOS
+digitalWrite (13,LOW); //APAGAMOS EL PIN 13
+delay (1000);
+}
