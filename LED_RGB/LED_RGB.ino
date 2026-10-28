@@ -21,15 +21,15 @@ void controlarLed(int r, int g, int b) {
 void loop() {
   // 1.Encender ROJO
   controlarLed(HIGH, LOW, LOW); 
-  delay(500);
+  delay(1000);
   
   // 2.Encender VERDE
   controlarLed(LOW, HIGH, LOW); 
-  delay(500); // Espera 0.5 segundos
+  delay(1000); // Espera 0.5 segundos
 
   // 3.Encender AZUL
   controlarLed(LOW, LOW, HIGH); 
-  delay(500);
+  delay(1000);
 }
 
 
