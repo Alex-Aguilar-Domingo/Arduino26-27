@@ -13,9 +13,9 @@ void setup() {
 // Este void pone Rojo, Verde y Azul (r, g, b) como los valores de encender
 // Recibe 3 parámetros (r, g, b) que pueden ser HIGH (encendido) o LOW (apagado).
 void controlarLed(int r, int g, int b) {
-  digitalWrite(Rojo, r);  // Aplica el estado recibido 'r' al pin del Rojo
-  digitalWrite(Verde, g); // Aplica el estado recibido 'g' al pin del Verde
-  digitalWrite(Azul, b);  // Aplica el estado recibido 'b' al pin del Azul
+  digitalWrite(Rojo, r);
+  digitalWrite(Verde, g);
+  digitalWrite(Azul, b);
 }
 
 void loop() {
